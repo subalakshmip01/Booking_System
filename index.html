@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel=stylesheet type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+   
+   <header id="home-section">
+       <div class="dark-overlay">
+           <div class="home-inner container">
+              <div class="row">
+                 <div class="col-lg-1">
+                     
+                      
+                  </div>
+                  <div class="col-lg-10 my-5">
+                     <div class="jumbotron mx-1 my-5">
+                          <h1 class=" trivial display-4 text-center">Totally Trivial Trivia!</h1>
+                          <a id="Start" class="btn btn-primary btn-lg btn-block my-5" href="#" role="button">Start</a>
+                          <div class="startTimer">
+                              <h1 id="counting" class="display-5 text-center"> </h1>
+                          </div>
+                          <div class="questions my-3 text-center">
+                              <h3 clas=" firstQuestion text-primary  my-2 ">What is the largest planet</h3>
+                              
+                          </div>
+                          <div class="row">
+                             <div class="input-group col-lg-2 "></div>
+                             <div class="input-group col-lg-8 ">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                      <input id="1" class="radio" type="radio" name="radio1" aria-label="Radio button for following text input" name="radio1">
+                                      <span  class="input-group-text">Venus</span>
+                                      <input id="2" class="radio" type="radio" name="radio2" aria-label="Radio button for following text input" name="radio1">
+                                      <span class="input-group-text">Jupiter</span>
+                                      <input id="3" class="radio" type="radio" name="radio3" aria-label="Radio button for following text input" name="radio1">
+                                      <span  class="input-group-text">Saturn</span>
+                                      <input id="4" class="radio" type="radio" name="radio4" aria-label="Radio button for following text input" name="radio1">
+                                      <span class="input-group-text">Neptune</span>
+                                      <input id="5" class="radio" type="radio" name="radio5" aria-label="Radio button for following text input" name="radio1">
+                                      <span class="input-group-text">Mars</span>
+                                      <input  id="6" class="radio" type="radio" name="radio6" aria-label="Radio button for following text input" name="radio1">
+                                      <span class="input-group-text">Earth</span>
+                                    </div>
+                                  </div>
+                                  
+                              </div>
+                            </div>
+                             <div class="input-group col-lg-2 "></div>
+                          <div class="questions my-3 text-center">
+                              <h3 clas=" firstQuestion text-primary  my-2 ">Which planet is the closest to the sun</h3>
+                              
+                          </div>
+                          <div class="row">     
+                              <div class="input-group col-lg-2 "></div>
+                          <div class="input-group col-lg-8">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                      <input id="7" class="radio" type="radio" name="radio7" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Venus</span>
+                                      <input id="8" class="radio" type="radio" name="radio8" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Jupiter</span>
+                                      <input id="9" class="radio" type="radio" name="radio9" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Mercury</span>
+                                      <input id="10" class="radio" type="radio" name="radio10" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Uranus</span>
+                                      <input id="11" class="radio" type="radio"  name="radio11" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Earth</span>
+                                      <input id="12" class="radio" type="radio" name="radio12" aria-label="Radio button for following text input" name="radio2">
+                                      <span class="input-group-text">Neptune</span>
+                                    </div>
+                                  </div>
+                                  
+                          </div>
+                             <div class="input-group col-lg-2 "></div>
+                         </div>
+                         <div class="questions my-3 text-center">
+                              <h3 clas=" firstQuestion text-primary  my-2 ">Which of these planets has most moons</h3>
+                              
+                          </div>
+                         <div class="row">     
+                              <div class="input-group col-lg-2 "></div>
+                          <div class="input-group col-lg-8">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                      <input id="13" class="radio" type="radio" name="radio13" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Venus</span>
+                                      <input id="14" class="radio" type="radio" name="radio14" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Jupiter</span>
+                                      <input id="15" class="radio" type="radio" name="radio15" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Mercury</span>
+                                      <input id="16" class="radio" type="radio" name="radio16" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Uranus</span>
+                                      <input id="17" class="radio" type="radio" name="radio17" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Earth</span>
+                                      <input id="18" class="radio" type="radio" name="radio18" aria-label="Radio button for following text input" name="radio3">
+                                      <span class="input-group-text">Neptune</span>
+                                    </div>
+                                  </div>
+                                  
+                          </div>
+                             <div class="input-group col-lg-2 "></div>
+                         </div>
+                         <div class="questions my-3 text-center">
+                              <h3 clas=" firstQuestion text-primary  my-2 ">Which of these planets is the farthest from the earth</h3>
+                              
+                          </div>
+                         <div class="row">     
+                              <div class="input-group col-lg-2 "></div>
+                          <div class="input-group col-lg-8">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                      <input id="19" class="radio" type="radio" name="radio19" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Saturn</span>
+                                      <input id="20" class="radio" type="radio" name="radio20" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Pluto</span>
+                                      <input id="21" class="radio" type="radio" name="radio21" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Mercury</span>
+                                      <input id="22" class="radio" type="radio" name="radio22" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Uranus</span>
+                                      <input id="23" class="radio" type="radio" name="radio23" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Mars</span>
+                                      <input id="24" class="radio" type="radio" name="radio24" aria-label="Radio button for following text input" name="radio4">
+                                      <span class="input-group-text">Neptune</span>
+                                    </div>
+                                  </div>
+                                  
+                          </div>
+                             <div class="input-group col-lg-2 "></div>
+                         </div>
+                         <div class="questions my-3 text-center">
+                              <h3 clas=" firstQuestion text-primary  my-2 ">In which planet there may be life</h3>
+                              
+                          </div>
+                         <div class="row">     
+                              <div class="input-group col-lg-2 "></div>
+                          <div class="input-group col-lg-8">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                      <input id="25" class="radio" type="radio" name="radio25" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Saturn</span>
+                                      <input id="26" class="radio" type="radio" name="radio26" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Venus</span>
+                                      <input id="27" class="radio" type="radio" name="radio27" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Mercury</span>
+                                      <input id="28" class="radio" type="radio" name="radio28" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Uranus</span>
+                                      <input id="29" class="radio" type="radio" name="radio29" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Mars</span>
+                                      <input id="30" class="radio" type="radio" name="radio30" aria-label="Radio button for following text input" name="radio5">
+                                      <span class="input-group-text">Neptune</span>
+                                    </div>
+                                  </div>
+                                  
+                          </div>
+                             <div class="input-group col-lg-2 "></div>
+                         </div>
+                         
+                         <div id="allDone" class="text-center my-4">
+                             <h2 clas=" text-primary  my-2 ">All done!</h2>
+                             <h3 id="wins" clas="text-primary  my-2 "> </h3>
+                             <h3 id="losses" clas="text-primary  my-2 "></h3>
+                             <h3 id="unanswered" clas="text-primary  my-2 "></h3>
+                             
+                         </div>
+                         <a id="Done" class="btn btn-primary btn-lg btn-block my-5" href="#" role="button">done</a>
+                         
+                    </div>
+                      
+                  </div> 
+                        
+                  <div class="col-lg-1">
+                     
+                      
+                  </div>
+                
+                  
+              </div>
+             
+              
+               
+           </div>
+       </div>
+       
+   </header>
+   
+   <script src="assets/javascript/app.js"></script>
+    
+</body>
+</html>
